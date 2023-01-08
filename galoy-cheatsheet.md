@@ -1,3 +1,6 @@
+# Cheatsheet for forking Galoy-mobile to your own version of the Bitcoin Beach Wallet"
+
+# 1. Running BBW locally
 
 ## to run galoy-mobile on M1 mac:
 
@@ -12,3 +15,5 @@
 - press the play/run button at the top left of xcode
 
 If all these steps are followed, the react native code should build and the simulator shoud open with Bitcoin Beach Wallet starting up.
+
+# 2. Using Storybook
