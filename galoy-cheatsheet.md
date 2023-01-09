@@ -21,6 +21,6 @@ If all these steps are followed, the react native code should build and the simu
 - upload desired icon to website and generate appset (leave filename blank)
 - You will get a downloaded .zip file with all the different size versions of your icon.
 - Extract that .zip file into a folder
-- copy all image files into galoy-mobile/ios/GaloyApp/images.xcassets/AppIcon.appiconset
-- in xcode, go to images.xcassets and click on AppIcon in the left outline. 
+- copy all image files into `galoy-mobile/ios/GaloyApp/images.xcassets/AppIcon.appiconset`
+- in xcode, go to `images.xcassets` and click on `AppIcon` in the left outline. 
 - delete all the existing images in the main window, and drag and drop your new icons to the correct size cutouts.
