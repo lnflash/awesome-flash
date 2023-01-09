@@ -24,3 +24,9 @@ If all these steps are followed, the react native code should build and the simu
 - copy all image files into `galoy-mobile/ios/GaloyApp/images.xcassets/AppIcon.appiconset`
 - in xcode, go to `images.xcassets` and click on `AppIcon` in the left outline. 
 - delete all the existing images in the main window, and drag and drop your new icons to the correct size cutouts.
+
+# 3. Change the name of the app on iOS
+- In terminal, edit the following file ios/GaloyApp.xcodeproj/project.pbxproj
+- change the variable PRODUCT_NAME in two places to the name of your app
+- Save the file and rebuild the app
+
