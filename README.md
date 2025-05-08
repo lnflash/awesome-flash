@@ -21,14 +21,14 @@ This repository aims to provide a complete view of the Flash ecosystem: official
 
 ---
 
-## 📦 Official Repositories
+## 📦 Key Official Repositories
 
 - [Flash Backend](https://github.com/lnflash/flash) – Node.js/NestJS backend powering Lightning, rewards, and APIs
 - [Flash Mobile App](https://github.com/lnflash/flash-mobile) – React Native wallet for Android and iOS
-- [Flash POS](https://github.com/lnflash/flash-pos) – Point-of-sale merchant system (in development)
+- [Flash POS](https://github.com/lnflash/flash-pos) – Point-of-sale merchant system
 - [Flash FIPs](https://github.com/lnflash/fips) – Flash Improvement Proposals for protocol development
 - [Awesome Flash](https://github.com/lnflash/awesome-flash) – This curated ecosystem index
-- [IBEX Plugin](https://github.com/lnflash/ibex-plugin) – Lightning integration via IBEX APIs
+- [IBEX Plugin](https://github.com/lnflash/ibex-plugin) – Lightning integration via IBEX APIs (deprecated)
 
 ---
 
@@ -38,8 +38,8 @@ This repository aims to provide a complete view of the Flash ecosystem: official
 - **Flash POS** – Merchant-focused Lightning interface for accepting BTC payments
 - **FlashCard** – NFC loyalty card for earning and redeeming closed-loop points
 - **FlashCard Server** – [btcpay.flashapp.me](https://btcpay.flashapp.me) BTCPayServer for NFC-based payment redemptions
-- **Flash Forge** – [forge.flashapp.me](https://forge.flashapp.me) Cashu eCash mint for federated, privacy-preserving money
-- **Flash Cash** – [ecash.flashapp.me](https://ecash.flashapp.me) Cashu-compatible web wallet to store and send eCash tokens
+- **Flash Forge** – [forge.flashapp.me](https://forge.flashapp.me) Cashu eCash mint for federated, privacy-preserving money  (in development)
+- **Flash Cash** – [ecash.flashapp.me](https://ecash.flashapp.me) Cashu-compatible web wallet to store and send eCash tokens  (in development)
 
 ---
 
@@ -47,12 +47,11 @@ This repository aims to provide a complete view of the Flash ecosystem: official
 
 ### ✅ Live
 
-- **BTCPayServer Plugin** – Flash BTCPay plugin based on [BlinkPlugin](https://github.com/PuraVida-Technologies/BlinkPlugin) and [btcpayserver-plugin-template](https://github.com/btcpayserver/btcpayserver-plugin-template)
 - **IBEX Integration** – [IBEX Mercado](https://www.ibexmercado.com) for liquidity and LN payout management
 - **Breez SDK** – Embedded Lightning Service Provider for wallet + node functionality
 
 ### 🛠️ In Development
-
+- **BTCPayServer Plugin** – Flash BTCPay plugin based on [BlinkPlugin](https://github.com/PuraVida-Technologies/BlinkPlugin) and [btcpayserver-plugin-template](https://github.com/btcpayserver/btcpayserver-plugin-template) 
 - **Azteco** – [azte.co](https://azte.co) voucher redemption integration
 - **Phoros** – [phoroscloud.com](https://www.phoroscloud.com) infrastructure-as-a-service for Bitcoin + LN
 - **Zaprite** – [zaprite.com](https://zaprite.com) business tools for Bitcoin-native invoicing and payments
@@ -61,11 +60,13 @@ This repository aims to provide a complete view of the Flash ecosystem: official
 
 ---
 
-## 📚 Flash Protocols & Standards
+## 📚 Proposed Flash Protocols & Standards
 
 - [FIP-01: Onboarding Flow](https://github.com/lnflash/fips/blob/main/FIP-01.md)
+- [FIP-02: WhatsApp Bot](https://github.com/lnflash/fips/blob/main/FIP-02.md)
+- [FIP-03: Merchant Dashboard](https://github.com/lnflash/fips/blob/main/FIP-03.md)
 - [FIP-04: BTCPayServer Plugin](https://github.com/lnflash/fips/blob/main/FIP-04.md)
-- [FIP-06: Phone Number-Based Routing](https://github.com/lnflash/fips/blob/main/FIP-06.md)
+- [FIP-06: Phone Number-Based Send](https://github.com/lnflash/fips/blob/main/FIP-06.md)
 - [FIP-XX Template](https://github.com/lnflash/fips/blob/main/FIP-XX-template.md)
 
 ---
@@ -75,14 +76,14 @@ This repository aims to provide a complete view of the Flash ecosystem: official
 - **NIP-05** identity using `@flashapp.me` email-style identifiers
 - **NIP-57** zap addresses for tipping users over Lightning
 - In-app Nostr key management (show/copy private/public keys)
-- Default relay configuration + optional custom relays
+- Default relay configuration + optional custom relays (in development)
 
 ---
 
 ## 🎁 Rewards & Loyalty
 
 - **Flashpoints** – Brick-and-mortar businesses distributing and accepting Flash rewards
-- **FlashCard NFC** – Simple, tap-to-pay card powered by BTCPayServer
+- **FlashCard NFC** – Simple, tap-to-pay card powered by Flash BTCPayServer
 - **Merchant Dashboard** – View sales, redemptions, and user loyalty metrics *(coming soon)*
 
 ---
@@ -90,19 +91,14 @@ This repository aims to provide a complete view of the Flash ecosystem: official
 ## 🎓 Educational Resources
 
 - [Flash Docs](https://docs.getflash.io) – Official product and developer documentation
-
-- [Flash User Guide (WIP)](https://github.com/lnflash/flash/wiki)
-- [Security Tips for the Caribbean](https://github.com/lnflash/awesome-flash#security-tips)
-- [Explainer Video on Twitter](https://twitter.com/getflashapp/status/1767379341876277427)
 - [Island Bitcoin](https://islandbitcoin.com) – In-person events and onboarding
 
 ---
 
 ## 🤝 Community
 
-- Nostr: [@Flash on Nostr](https://primal.net/p/nprofile1qqs0hnh7hfjhg8rlz8dc5lasauvy6palktklxy5gqe9qe7krwqel5ucr5hca0)
-
-- Twitter: [@getflashapp](https://twitter.com/getflashapp)
+- Nostr: [@Flash](https://primal.net/p/nprofile1qqs0hnh7hfjhg8rlz8dc5lasauvy6palktklxy5gqe9qe7krwqel5ucr5hca0)
+- Twitter: [@LNFlash](https://twitter.com/getflashapp)
 - WhatsApp: [Flash Support](https://wa.me/18762909250)
 - Meetup: [Island Bitcoin](https://islandbitcoin.com)
 - GitHub Org: [lnflash](https://github.com/lnflash)
