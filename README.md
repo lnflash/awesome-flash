@@ -119,4 +119,4 @@ See the [FIPs repo](https://github.com/lnflash/fips) to propose official ecosyst
 
 ## 🛡️ License
 
-[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) — do what you want.
+[MIT](LICENSE) — do what you want.
